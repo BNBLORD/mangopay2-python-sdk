@@ -13,9 +13,9 @@ class EMoneyTest(BaseTest):
         self.register_mock([
             {
                 'method': responses.GET,
-                'url': settings.MANGOPAY_API_SANDBOX_URL+settings.MANGOPAY_CLIENT_ID+'/users/1148743/emoney/',
+                'url': settings.MANGOPAY_API_SANDBOX_URL+settings.MANGOPAY_CLIENT_ID+'/users/64718764/emoney/',
                 'body': {
-                    "UserId": 1148743,
+                    "UserId": 64718764,
                     "CreditedEMoney": {
                         "Currency": "EUR",
                         "Amount": 0
