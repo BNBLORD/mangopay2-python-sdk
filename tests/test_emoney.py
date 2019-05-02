@@ -15,14 +15,14 @@ class EMoneyTest(BaseTest):
                 'method': responses.GET,
                 'url': settings.MANGOPAY_API_SANDBOX_URL+settings.MANGOPAY_CLIENT_ID+'/users/1148743/emoney/',
                 'body': {
-                    "UserId": 1169420,
+                    "UserId": 1148743,
                     "CreditedEMoney": {
                         "Currency": "EUR",
-                        "Amount": 500
+                        "Amount": 0
                     },
                     "DebitedEMoney": {
                         "Currency": "EUR",
-                        "Amount": 500
+                        "Amount": 0
                     }
                 },
                 'status': 200,
