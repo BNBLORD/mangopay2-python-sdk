@@ -13,7 +13,7 @@ class EMoneyTest(BaseTest):
         self.register_mock([
             {
                 'method': responses.GET,
-                'url': settings.MANGOPAY_API_SANDBOX_URL+settings.MANGOPAY_CLIENT_ID+'/users/1169420/emoney/',
+                'url': settings.MANGOPAY_API_SANDBOX_URL+settings.MANGOPAY_CLIENT_ID+'/users/1148743/emoney/',
                 'body': {
                     "UserId": 1169420,
                     "CreditedEMoney": {
